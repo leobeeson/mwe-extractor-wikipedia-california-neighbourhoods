@@ -12,7 +12,7 @@
 
 ## Download Wikipedia Documents
 1. For the `positive corpus`, define the Wikipedia categories of interest as an array assigned to `positive_domain_set` (line 99).
-  * Use actual wikipedia categories, e.g. Law -> https://en.wikipedia.org/wiki/Category:Neighborhoods in California by city
+  * Use actual wikipedia categories, e.g. Law -> https://en.wikipedia.org/wiki/Category:Neighborhoods_in_California_by_city
 2. For the `negative corpus`, assign Wikipedia categories to `negative_domain_set` (line 100), that are either:
   * Semantically orthogonal to the `positive corpus` categories, for creating a topic boundary.
   * Semantically tangential to the `positive corpus` categories, for narrowing a specific topic.
